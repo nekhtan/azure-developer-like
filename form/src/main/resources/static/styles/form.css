@@ -35,10 +35,10 @@ body{
     .button{
       width: 10%;
       height: 2rem;
-      background-color: #ff5800;
+      background-color: #0011ff;
       color: white;
       border-radius: 5px;
-      border-color: #ff5800;
+      border-color: #4400ff;
     }
   
     .message{
