@@ -1,20 +1,20 @@
 {
     "IsEncrypted": false,
     "Values": {
-      "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=afklmaz204sa;AccountKey=90U3VYDqLfD6HK+Tuq5jFeKyaarcfmqoTTjygTaobf+TsmXBcSoTP0UWazIQc7hvki3uLGvrpy49+AStQk83ww==;EndpointSuffix=core.windows.net",
+      "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=satrainee10;AccountKey=9d1ENQYHaRNRHq8OJ6WXik/1xy7+5euIboYGnLGedS1LbszqS9iU5NYMKUfq7aVLu6a5T5ZVXcE/+AStlhth7w==;EndpointSuffix=core.windows.net",
       "FUNCTIONS_WORKER_RUNTIME": "java",
       "MAIN_CLASS":"com.example.functions.FunctionsApplication",
       "AzureWebJobsDashboard": "",
-      "azure.cosmos.uri": "https://af-klm-az-204-cdb.documents.azure.com:443/",
-      "azure.cosmos.key":"Y8EzO2EtACrVOXXCEfQHiwa3NT5skQVUpgrhLS0ByD5mhpvX5XTjyRdcuHMTXvrvLciiCsuFp5tIk46jYH7Rtw==",
-      "azure.cosmos.database":"af-klm-az-204",
+      "azure.cosmos.uri": "https://trainee10-cosmosdb.documents.azure.com:443/",
+      "azure.cosmos.key":"hICM40LSqqAzgDZCOl0kyBNX2ZJLIyNPH6GmqTIQHS1ymrxvfVbhPXSAt80wmMnMR5IvQV0yaTMyACDbLGkhvA==",
+      "azure.cosmos.database":"UserFeedback",
       "azure.cosmos.populateQueryMetrics": "false",
 
-      "azure.storage.account-name": "afklmaz204sa",
-      "azure.storage.account-key":"90U3VYDqLfD6HK+Tuq5jFeKyaarcfmqoTTjygTaobf+TsmXBcSoTP0UWazIQc7hvki3uLGvrpy49+AStQk83ww==",
-      "azure.storage.blob-endpoint":"http://afklmaz204sa.blob.core.windows.net",
+      "azure.storage.account-name": "satrainee10",
+      "azure.storage.account-key":"9d1ENQYHaRNRHq8OJ6WXik/1xy7+5euIboYGnLGedS1LbszqS9iU5NYMKUfq7aVLu6a5T5ZVXcE/+AStlhth7w==",
+      "azure.storage.blob-endpoint":"http://satrainee10.blob.core.windows.net",
 
       "images.raw.container":"raw-images",
-      "images.watermarked.container":"atermarked-images"
+      "images.watermarked.container":"watermarked-images"
     }
   }
