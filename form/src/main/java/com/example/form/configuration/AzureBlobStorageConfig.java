@@ -1,14 +1,14 @@
 package com.example.form.configuration;
 
-import java.util.Locale;
+import com.azure.storage.blob.BlobServiceClient;
+import com.azure.storage.blob.BlobServiceClientBuilder;
+import com.azure.storage.common.StorageSharedKeyCredential;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.azure.storage.blob.BlobServiceClient;
-import com.azure.storage.blob.BlobServiceClientBuilder;
-import com.azure.storage.common.StorageSharedKeyCredential;
+import java.util.Locale;
 
 @Configuration
 public class AzureBlobStorageConfig {
@@ -22,6 +22,8 @@ public class AzureBlobStorageConfig {
     public BlobServiceClient getBlobServiceClient() {
         return new BlobServiceClientBuilder()
                 .endpoint(String.format(Locale.ROOT, "https://%s.blob.core.windows.net", accountName))
+
+                // for inside the same resource group (sas token for external calls) -> // for inside the same resource group (sas token for external calls)
                 .credential(new StorageSharedKeyCredential(accountName, accountKey))
                 .buildClient();
     }
